@@ -1,22 +1,19 @@
 import os
 
 def search_files(keyword):
-    files = os.listdir(".")
     keyword = keyword.lower()
+    files = os.listdir(".")
 
-    matches = []
-
-    for filename in files:
-        if keyword in filename.lower():   # <--- works for PDF, DOCX, PNG, etc.
-            matches.append(filename)
+    matches = [f for f in files if keyword in f.lower()]
 
     if matches:
         print("\nFiles found:")
-        for m in matches:
-            print(f"- {m}")
+        for file in matches:
+            print(f"- {file}")
     else:
-        print("\nNo files matched your search.")
+        print("\nNo files found matching your search.")
 
 if __name__ == "__main__":
     term = input("Enter a word to search for: ")
     search_files(term)
+
