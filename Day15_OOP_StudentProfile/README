@@ -1,0 +1,14 @@
+# Day 15 — OOP Student Profile Generator
+
+This project introduces Object-Oriented Programming (OOP) in Python.
+
+## What I Learned
+- What classes are
+- What objects are
+- How attributes work
+- How methods define behaviour
+- How to update object data
+- Why OOP is used in real software
+
+## How to Run
+python student_profile.py
