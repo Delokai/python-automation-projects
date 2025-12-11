@@ -1,0 +1,3 @@
+Finish Day 17 project|True
+Study OOP basics again|False
+Read chapter from CS textbook|False
