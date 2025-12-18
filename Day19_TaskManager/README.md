@@ -25,3 +25,8 @@ Reading and writing JSON
 Managing persistent data
 
 Structuring programs with functions
+
+- Input validation
+- Error handling with try/except
+- Writing safer, user-friendly programs
+
